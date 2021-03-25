@@ -58,17 +58,16 @@ body {
   margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
-
-
   overflow: auto;
-  float:left;
+  
 }
 #content {
+  clear:both;
   margin-top: 5px;
   margin-left: 15px;
   margin-right: 15px;
   text-align: left;
-  float:right;
+  float:left;
 
 }
 
