@@ -1,0 +1,113 @@
+/** HEADER **/
+
+.navbar-header{
+
+	padding:auto 0 auto 0;
+	
+}
+#container-nav{
+	margin: 0 0 0 0;
+	padding:0px;
+	/*border:2px solid black;*/
+	width: 100%;
+	background-color: grey;
+}
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 2px solid black;
+  margin:0 0 0 0;
+}
+.navbar-brand {
+  padding:0 auto 0 auto;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin:auto 0 auto 25px;
+  /*line-height: .75;*/
+  float:left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin:auto -15px auto -15px;
+  /*margin-top: 10px;*/
+  text-align: center;
+  background: brown;
+  color:white;
+
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav{
+	border:0;
+}
+#collapsable-nav visible-xs{
+	background-color: brown;
+	
+
+}
+li:nth-child(1){
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom-width: 85%;
+}
+li:nth-child(2){
+	border-bottom: 2px solid black;
+	border-bottom-width: 85%;
+}
+
+.navbar-header button.navbar-toggle{
+  border: 2px solid black;
+  background-color: grey;
+}
+.navbar-header button.navbar{ 
+  border: 2px solid white;
+  background-color: grey;
+}
+
+/***Main content***/
+#main-content{
+	margin: 0 auto 0 auto;
+	width:95%;
+	background-color: #808080;
+}
+h2{
+	font-style: bold;
+	text-shadow: 1px 1px 1px #000000
+	color: #000000;
+	padding-bottom: 15px;
+}
+
+.container section{
+	
+	padding: 5px;
+	
+}
+
+h3{
+	font-style:bold;
+	text-shadow: 1px 1px 1px #000000;
+	color: #000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#main-content{
+		width: 85%;
+		margin: 0 auto 0 auto;
+		
+	}
+}
